@@ -1,7 +1,3 @@
-$text-nav: rgb(133, 12, 30);
-$bg-nav: rgb(248, 209, 158);
-$bg-nav-hover: rgba(252, 230, 203, 0.966);
-$bg-body: antiquewhite;
 .navbar {
     font-family: 'Great Vibes', cursive;
     overflow: hidden;
@@ -71,4 +67,8 @@ $bg-body: antiquewhite;
             background-color: $bg-nav-hover;
         }
     }
+}
+
+#something {
+    color: blue;
 }
