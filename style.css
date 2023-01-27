@@ -11,14 +11,14 @@
   text-decoration: none;
 }
 .navbar .navLink {
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(133, 12, 30);
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
 }
 .navbar #logoText {
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(133, 12, 30);
   padding: 14px 16px;
   text-align: center;
@@ -28,7 +28,7 @@
   overflow: hidden;
 }
 .navbar .dropdown .dropButton {
-  font-size: 20px;
+  font-size: 30px;
   border: none;
   outline: none;
   color: rgb(133, 12, 30);
@@ -71,27 +71,6 @@
   color: blue;
 }
 
-footer {
-  background-color: rgb(248, 209, 158);
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-footer .f-div {
-  display: flex;
-  justify-content: space-evenly;
-}
-footer .f-div .f-link {
-  text-decoration: none;
-  color: rgb(133, 12, 30);
-  padding: 10px;
-}
-footer .f-p {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  color: rgb(133, 12, 30);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -101,6 +80,31 @@ footer .f-p {
 body {
   background-color: antiquewhite;
   font-family: "Quicksand", sans-serif;
+}
+body .container {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+body footer {
+  background-color: rgb(248, 209, 158);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body footer .f-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+body footer .f-div .f-link {
+  text-decoration: none;
+  color: rgb(133, 12, 30);
+  padding: 10px;
+}
+body footer .f-p {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: rgb(133, 12, 30);
 }
 
 .container-recipe {
