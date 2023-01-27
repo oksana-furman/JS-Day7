@@ -84,3 +84,24 @@ body {
   background-color: antiquewhite;
   font-family: "Quicksand", sans-serif;
 }/*# sourceMappingURL=style.css.map */
+
+footer {
+    background-color: rgb(248, 209, 158);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.f-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.f-link {
+  text-decoration: none;
+  color: gb(133, 12, 30);
+  padding: 10px;
+}
+.f-p {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: gb(133, 12, 30);
+}
