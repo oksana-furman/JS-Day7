@@ -1,0 +1,74 @@
+$text-nav: rgb(133, 12, 30);
+$bg-nav: rgb(248, 209, 158);
+$bg-nav-hover: rgba(252, 230, 203, 0.966);
+$bg-body: antiquewhite;
+.navbar {
+    font-family: 'Great Vibes', cursive;
+    overflow: hidden;
+    background-color: rgb(248, 209, 158);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    #logoLink {
+        text-decoration: none;
+    }
+    .navLink {
+        font-size: 20px;
+        color: $text-nav;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #logoText {
+        font-size: 20px;
+        color: $text-nav;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .dropdown {
+        overflow: hidden;
+        .dropButton {
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: $text-nav;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: $bg-body;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        a {
+            color: $text-nav;
+            display: block;
+            text-align: left;
+        }
+    }
+}
+
+.navLink:hover {
+    background-color: $bg-nav-hover;
+}
+
+.dropdown:hover {
+    .dropButton {
+        background-color: $bg-nav-hover;
+        .dropdown-content {
+            display: block;
+        }
+    }
+    .dropdown-content {
+        display: block;
+        a:hover {
+            background-color: $bg-nav-hover;
+        }
+    }
+}
