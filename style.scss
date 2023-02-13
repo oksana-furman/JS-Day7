@@ -41,11 +41,11 @@ body {
             // background-size: cover;
             // background-position: center;
         }
-        .item:hover {
-            transform: scale(1.1);
-            transition: width 1s, height 1s, transform 1s;
-            ;
-        }
+        // .item:hover {
+        //     transform: scale(1.1);
+        //     transition: width 1s, height 1s, transform 1s;
+        //     ;
+        // }
     }
     footer {
         background-color: $bg-nav;
