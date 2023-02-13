@@ -194,6 +194,9 @@
             val.addEventListener("mouseover", function() {
                 val.setAttribute("class", "item animate__animated animate__flip");
             })
+            val.addEventListener("mouseout", function() {
+                val.classList.remove("animate__flip");
+            })
         }
     </script>
 </body>
